@@ -1,0 +1,45 @@
+{
+  "name": "grunt-archieml",
+  "description": "A Grunt plugin for parsing ArchieML files.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/achavez/grunt-archieml",
+  "author": {
+    "name": "Andrew Chavez",
+    "email": "adchavez@gmail.com",
+    "url": "http://achavez.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/achavez/grunt-archieml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/achavez/grunt-archieml/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/achavez/grunt-archieml/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "archieml": "0.1.x"
+  }
+}
