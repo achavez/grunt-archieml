@@ -35,7 +35,13 @@ grunt.initConfig({
       // Task-specific options go here.
     },
     your_target: {
-      // Target-specific file lists and/or options go here.
+      options: {
+        // Targer-specific options go here.
+      }
+      files: {
+        'output.json': ['inputs/**.aml'],
+        'output2.josn': 'single-input.aml'
+      }
     },
   },
 });
@@ -90,5 +96,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 | Date | Version | Release notes |
-|---|---|---|
+|-|-|-|
 | 2015-03-10 | v0.1.0 | Initial release |
