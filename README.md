@@ -96,5 +96,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 | Date | Version | Release notes |
-|-|-|-|
+|---|---|---|
 | 2015-03-10 | v0.1.0 | Initial release |
