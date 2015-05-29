@@ -1,0 +1,10 @@
+general:
+  artifacts:
+    - "coverage/lcov-report"
+dependencies:
+  post:
+    - npm install codecov.io
+    - npm install -g istanbul
+test:
+  post:
+    - istanbul cover grunt test -- -R spec && cat ./coverage/coverage.json | ./node_modules/codecov.io/bin/codecov.io.js
