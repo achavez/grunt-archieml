@@ -1,3 +1,11 @@
+/*
+ * grunt-archieml
+ * https://github.com/achavez/grunt-archieml
+ *
+ * Copyright (c) 2015 Andrew Chavez
+ * Licensed under the MIT license.
+ */
+
 'use strict';
 
 var grunt = require('grunt');
@@ -12,7 +20,7 @@ exports.archieml = {
 
     var actual = grunt.file.read('tmp/one_to_one_defaults.json');
     var expected = grunt.file.read('test/expected/one_to_one_defaults');
-    test.equal(actual, expected, 'A single parsed ArchieML file.');
+    test.strictEqual(actual, expected, 'A single parsed ArchieML file.');
 
     test.done();
   },
@@ -25,7 +33,7 @@ exports.archieml = {
 
     var actual = grunt.file.read('tmp/many_to_one_defaults.json');
     var expected = grunt.file.read('test/expected/many_to_one_defaults');
-    test.equal(actual, expected, 'Parsed ArchieML files, combined into a single JSON file.');
+    test.strictEqual(actual, expected, 'Parsed ArchieML files, combined into a single JSON file.');
 
     test.done();
   },
@@ -38,8 +46,8 @@ exports.archieml = {
 
     var actual = grunt.file.read('tmp/many_to_one_cb.json');
     var expected = grunt.file.read('test/expected/many_to_one_cb');
-    test.equal(actual, expected, 'Parsed ArchieML files, with names capitalized.');
+    test.strictEqual(actual, expected, 'Parsed ArchieML files, with names capitalized.');
 
     test.done();
-  }
+  },
 };

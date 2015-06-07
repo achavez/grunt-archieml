@@ -1,5 +1,7 @@
 # grunt-archieml
 
+[![CircleCI](https://img.shields.io/circleci/project/achavez/grunt-archieml.svg)](https://circleci.com/gh/achavez/grunt-archieml) [![Codecov](https://img.shields.io/codecov/c/github/achavez/grunt-archieml.svg)](https://codecov.io/github/achavez/grunt-archieml) [![GitHub release](https://img.shields.io/github/release/achavez/grunt-archieml.svg)]() [![npm](https://img.shields.io/npm/v/grunt-archieml.svg)](https://www.npmjs.com/package/grunt-archieml)
+
 A Grunt plugin for parsing Archie Markup Language (ArchieML) files into JSON using [archieml-js](https://github.com/newsdev/archieml-js).
 
 From [ArchieML.org](http://archieml.org/):
