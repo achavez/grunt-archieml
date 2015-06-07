@@ -27,8 +27,11 @@ module.exports = function(grunt) {
     this.files.forEach(function(file) {
       // Filter out files that don't exist
       var parsed = file.src.filter(function(src) {
+        // This filter is recommended in the Grunt docs, but I can't
+        // generate a test case that actually exercises it
+        /* istanbul ignore if */
         if (!grunt.file.exists(src)) {
-          grunt.log.warn('Source file "' + src + '" not found.');
+          grunt.fail.warn('Source file "' + src + '" not found.');
           return false;
         } else {
           return true;
