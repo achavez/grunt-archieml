@@ -99,4 +99,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ## Release History
 | Date | Version | Release notes |
 |---|---|---|
+| 2015-06-29 | v0.1.1 | Update [archieml-js](https://github.com/newsdev/archieml-js) dependency to v0.3.x |
 | 2015-03-10 | v0.1.0 | Initial release |

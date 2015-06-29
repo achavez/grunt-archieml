@@ -1,7 +1,7 @@
 {
   "name": "grunt-archieml",
   "description": "A Grunt plugin for parsing ArchieML files.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/achavez/grunt-archieml",
   "author": {
     "name": "Andrew Chavez",
@@ -40,6 +40,6 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "archieml": "0.1.x"
+    "archieml": "0.3.x"
   }
 }
